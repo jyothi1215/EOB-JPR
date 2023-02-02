@@ -85,7 +85,7 @@ namespace EmployeeOnBoardingProject.PresentationLayer
             DDL1_EN.DataValueField = "EmployeeID";
             DDL1_EN.DataBind();
 
-            ListItem li = new ListItem("Please Select", "Please Select");
+            ListItem li = new ListItem("Please choose", "Please choose");
             DDL1_EN.Items.Insert(0, li);
         }
 
